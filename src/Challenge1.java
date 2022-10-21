@@ -23,7 +23,7 @@ public class Challenge1 {
     }
 
     //Had a hard time with this one, so I figure I'll show my two wrong answers
-    //Constant space, O(n^2)
+    //Constant space, O(n^2) time
     public static int findIntersection(LinkedList<Integer> list1, LinkedList<Integer> list2) {
 
         for (int i = 0; i < list1.size(); i++) {
